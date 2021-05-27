@@ -14,19 +14,20 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @Configuration
 @EnableSwagger2
 public class Swagger2 {
-    //    http://localhost:8088/swagger-ui.html     原路径
+
+//    http://localhost:8088/swagger-ui.html     原路径
 //    http://localhost:8088/doc.html     原路径
 
     // 配置swagger2核心配置 docket
     @Bean
     public Docket createRestApi() {
         return new Docket(DocumentationType.SWAGGER_2)  // 指定api类型为swagger2
-                .apiInfo(apiInfo())                 // 用于定义api文档汇总信息
-                .select()
-                .apis(RequestHandlerSelectors
-                        .basePackage("com.imooc.controller"))   // 指定controller包,用来控制哪些接口暴露给Swagger来展现
-                .paths(PathSelectors.any())         // 所有controller
-                .build();
+                    .apiInfo(apiInfo())                 // 用于定义api文档汇总信息
+                    .select()
+                    .apis(RequestHandlerSelectors
+                            .basePackage("com.imooc.controller"))   // 指定controller包
+                    .paths(PathSelectors.any())         // 所有controller
+                    .build();
     }
 
     private ApiInfo apiInfo() {
@@ -40,4 +41,5 @@ public class Swagger2 {
                 .termsOfServiceUrl("https://www.imooc.com") // 网站地址
                 .build();
     }
+
 }
