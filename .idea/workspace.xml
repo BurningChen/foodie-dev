@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/dev-3.0.0" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e1e25ac2-d465-42bd-ad88-4ac222b44a55" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/foodie-dev-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/controller/interceptor/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/controller/interceptor/UserTokenInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/src/test/java/com/test/DistributedClusterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/classes/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/classes/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/classes/com/imooc/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/classes/com/imooc/aspect/ServiceLogAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/classes/com/imooc/config/CorsConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/classes/com/imooc/config/OrderJob.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/classes/com/imooc/config/Swagger2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/classes/com/imooc/config/WebMvcConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/classes/com/imooc/controller/AddressController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/classes/com/imooc/controller/BaseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/classes/com/imooc/controller/HelloController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/classes/com/imooc/controller/IndexController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/classes/com/imooc/controller/ItemsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/classes/com/imooc/controller/OrdersController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/classes/com/imooc/controller/PassportController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/classes/com/imooc/controller/RedisController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/classes/com/imooc/controller/ShopcatController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/classes/com/imooc/controller/StuFooController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/classes/com/imooc/controller/center/CenterController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/classes/com/imooc/controller/center/CenterUserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/classes/com/imooc/controller/center/MyCommentsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/classes/com/imooc/controller/center/MyOrdersController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/classes/com/imooc/controller/interceptor/UserTokenInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/classes/com/imooc/exception/CustomExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/classes/com/imooc/resource/FileUpload.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/classes/file-upload-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/classes/file-upload-prod.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/classes/profiles.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/classes/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/classes/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/classes/com/imooc/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/classes/com/imooc/WarStarterApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/classes/com/imooc/aspect/ServiceLogAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/classes/com/imooc/config/CorsConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/classes/com/imooc/config/OrderJob.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/classes/com/imooc/config/Swagger2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/classes/com/imooc/config/WebMvcConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/classes/com/imooc/controller/AddressController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/classes/com/imooc/controller/BaseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/classes/com/imooc/controller/HelloController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/classes/com/imooc/controller/IndexController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/classes/com/imooc/controller/ItemsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/classes/com/imooc/controller/OrdersController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/classes/com/imooc/controller/PassportController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/classes/com/imooc/controller/ShopcatController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/classes/com/imooc/controller/StuFooController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/classes/com/imooc/controller/center/CenterController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/classes/com/imooc/controller/center/CenterUserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/classes/com/imooc/controller/center/MyCommentsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/classes/com/imooc/controller/center/MyOrdersController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/classes/com/imooc/exception/CustomExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/classes/com/imooc/resource/FileUpload.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/classes/file-upload-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/classes/file-upload-prod.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/classes/profiles.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/HikariCP-3.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.9.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/classmate-1.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/commons-codec-1.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/commons-io-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/commons-lang3-3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/foodie-dev-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/foodie-dev-mapper-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/foodie-dev-pojo-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/foodie-dev-service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/guava-18.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/hibernate-validator-6.0.16.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/jackson-datatype-jdk8-2.9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/jackson-datatype-jsr310-2.9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/jackson-module-parameter-names-2.9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/javax.annotation-api-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/jsqlparser-2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/lettuce-core-5.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/mapper-base-1.1.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/mapper-core-1.1.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/mapper-extra-1.1.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/mapper-spring-1.1.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/mapper-spring-boot-autoconfigure-2.1.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/mapper-spring-boot-starter-2.1.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/mapper-weekend-1.1.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-2.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-boot-autoconfigure-2.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-boot-starter-2.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.41.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/netty-buffer-4.1.36.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/netty-codec-4.1.36.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/netty-common-4.1.36.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/netty-handler-4.1.36.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/netty-resolver-4.1.36.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/netty-transport-4.1.36.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/pagehelper-5.1.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/pagehelper-spring-boot-autoconfigure-1.2.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/pagehelper-spring-boot-starter-1.2.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/persistence-api-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/reactive-streams-1.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/reactor-core-3.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.21.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/slf4j-log4j12-1.7.21.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/snakeyaml-1.23.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-2.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-autoconfigure-2.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-2.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-aop-2.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-data-redis-2.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-jdbc-2.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-json-2.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-tomcat-2.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-web-2.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/spring-context-support-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/spring-data-commons-2.1.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/spring-data-keyvalue-2.1.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/spring-data-redis-2.1.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/spring-oxm-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/spring-plugin-core-1.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/spring-plugin-metadata-1.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/springfox-core-2.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/springfox-schema-2.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/springfox-spi-2.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/springfox-spring-web-2.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/springfox-swagger-common-2.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/springfox-swagger-ui-2.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/springfox-swagger2-2.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/swagger-annotations-1.5.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/swagger-bootstrap-ui-1.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/swagger-models-1.5.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/tomcat-embed-core-9.0.19.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/tomcat-embed-el-9.0.19.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/tomcat-embed-websocket-9.0.19.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/validation-api-2.0.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/test-classes/com/test/DistributedClusterTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/test-classes/com/test/TransTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/META-INF/foodie-dev-common.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/com/imooc/enums/CommentLevel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/com/imooc/enums/OrderStatusEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/com/imooc/enums/PayMethod.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/com/imooc/enums/Sex.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/com/imooc/enums/YesOrNo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/com/imooc/utils/CookieUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/com/imooc/utils/DateUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/com/imooc/utils/DesensitizationUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/com/imooc/utils/IMOOCJSONResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/com/imooc/utils/JsonUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/com/imooc/utils/MD5Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/com/imooc/utils/MobileEmailUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/com/imooc/utils/PagedGridResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/com/imooc/utils/RedisOperator$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/com/imooc/utils/RedisOperator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/org/n3r/idworker/Code.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/org/n3r/idworker/DayCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/org/n3r/idworker/Id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/org/n3r/idworker/IdWorker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/org/n3r/idworker/InvalidSystemClock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/org/n3r/idworker/RandomCodeStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/org/n3r/idworker/Sid$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/org/n3r/idworker/Sid.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/org/n3r/idworker/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/org/n3r/idworker/WorkerIdStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/org/n3r/idworker/strategy/DayPrefixRandomCodeStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/org/n3r/idworker/strategy/DefaultRandomCodeStrategy$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/org/n3r/idworker/strategy/DefaultRandomCodeStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/org/n3r/idworker/strategy/DefaultWorkerIdStrategy$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/org/n3r/idworker/strategy/DefaultWorkerIdStrategy$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/org/n3r/idworker/strategy/DefaultWorkerIdStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/org/n3r/idworker/strategy/FileLock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/org/n3r/idworker/utils/HttpReq.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/org/n3r/idworker/utils/IPv4Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/org/n3r/idworker/utils/Ip.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/org/n3r/idworker/utils/PagedGridResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/org/n3r/idworker/utils/Props$Silent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/org/n3r/idworker/utils/Props.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/org/n3r/idworker/utils/Serializes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/org/n3r/idworker/utils/Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/foodie-dev-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/foodie-dev-common-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/foodie-dev-mapper.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/com/imooc/mapper/CarouselMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/com/imooc/mapper/CategoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/com/imooc/mapper/CategoryMapperCustom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/com/imooc/mapper/ItemsCommentsMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/com/imooc/mapper/ItemsCommentsMapperCustom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/com/imooc/mapper/ItemsImgMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/com/imooc/mapper/ItemsMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/com/imooc/mapper/ItemsMapperCustom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/com/imooc/mapper/ItemsParamMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/com/imooc/mapper/ItemsSpecMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/com/imooc/mapper/OrderItemsMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/com/imooc/mapper/OrderStatusMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/com/imooc/mapper/OrdersMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/com/imooc/mapper/OrdersMapperCustom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/com/imooc/mapper/StuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/com/imooc/mapper/UserAddressMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/com/imooc/mapper/UsersMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/com/imooc/my/mapper/MyMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/mapper/CarouselMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/mapper/CategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/mapper/CategoryMapperCustom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/mapper/ItemsCommentsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/mapper/ItemsCommentsMapperCustom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/mapper/ItemsImgMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/mapper/ItemsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/mapper/ItemsMapperCustom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/mapper/ItemsParamMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/mapper/ItemsSpecMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/mapper/OrderItemsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/mapper/OrderStatusMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/mapper/OrdersMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/mapper/OrdersMapperCustom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/mapper/StuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/mapper/UserAddressMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/mapper/UsersMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/foodie-dev-mapper-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/pojo/vo/UsersVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/imooc/pojo/Carousel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/imooc/pojo/Category.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/imooc/pojo/Items.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/imooc/pojo/ItemsComments.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/imooc/pojo/ItemsImg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/imooc/pojo/ItemsParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/imooc/pojo/ItemsSpec.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/imooc/pojo/OrderItems.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/imooc/pojo/OrderStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/imooc/pojo/Orders.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/imooc/pojo/Stu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/imooc/pojo/UserAddress.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/imooc/pojo/Users.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/imooc/pojo/bo/AddressBO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/imooc/pojo/bo/ShopcartBO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/imooc/pojo/bo/SubmitOrderBO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/imooc/pojo/bo/UserBO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/imooc/pojo/bo/center/CenterUserBO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/imooc/pojo/bo/center/OrderItemsCommentBO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/imooc/pojo/vo/CategoryVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/imooc/pojo/vo/CommentLevelCountsVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/imooc/pojo/vo/ItemCommentVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/imooc/pojo/vo/ItemInfoVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/imooc/pojo/vo/MerchantOrdersVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/imooc/pojo/vo/MyCommentVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/imooc/pojo/vo/MyOrdersVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/imooc/pojo/vo/MySubOrderItemVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/imooc/pojo/vo/NewItemsVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/imooc/pojo/vo/OrderStatusCountsVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/imooc/pojo/vo/OrderVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/imooc/pojo/vo/SearchItemsVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/imooc/pojo/vo/ShopcartVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/imooc/pojo/vo/SimpleItemVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/imooc/pojo/vo/SubCategoryVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/imooc/pojo/vo/UsersVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/foodie-dev-pojo-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/foodie-dev-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/target/classes/com/imooc/service/AddressService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/target/classes/com/imooc/service/CarouselService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/target/classes/com/imooc/service/CategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/target/classes/com/imooc/service/ItemService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/target/classes/com/imooc/service/OrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/target/classes/com/imooc/service/StuService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/target/classes/com/imooc/service/TestTransService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/target/classes/com/imooc/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/target/classes/com/imooc/service/center/CenterUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/target/classes/com/imooc/service/center/MyCommentsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/target/classes/com/imooc/service/center/MyOrdersService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/target/classes/com/imooc/service/impl/AddressServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/target/classes/com/imooc/service/impl/CarouselServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/target/classes/com/imooc/service/impl/CategoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/target/classes/com/imooc/service/impl/ItemServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/target/classes/com/imooc/service/impl/OrderServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/target/classes/com/imooc/service/impl/StuServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/target/classes/com/imooc/service/impl/TestTransServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/target/classes/com/imooc/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/target/classes/com/imooc/service/impl/center/BaseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/target/classes/com/imooc/service/impl/center/CenterUserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/target/classes/com/imooc/service/impl/center/MyCommentsServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/target/classes/com/imooc/service/impl/center/MyOrdersServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/target/foodie-dev-service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-sso/target/classes/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-sso/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-sso/target/classes/com/imooc/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-sso/target/classes/com/imooc/CorsConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-sso/target/classes/com/imooc/controller/SSOController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-sso/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-sso/target/classes/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-sso/target/foodie-sso-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-sso/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-sso/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-sso/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-sso/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-sso/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\Java\maven\maven_repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../maven/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="C:\Java\maven\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1sQbQ0Q3kZlPHa62178geoX7UU5" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.imooc.controller" />
+      <recent name="com.imooc.pojo.bo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Java\Code\foodie-dev" />
+      <recent name="C:\Java\Code\foodie-dev\foodie-dev-common\src\main\java\com\imooc\utils" />
+      <recent name="C:\Java\Code\foodie-dev\foodie-dev-mapper\src\main\resources\mapper" />
+      <recent name="C:\Java\Code\foodie-dev\foodie-dev-mapper\src\main\java\com\imooc\mapper" />
+      <recent name="C:\Java\Code\foodie-dev\foodie-dev-service\src\main\java\com\imooc\service\impl" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application (1)">
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="foodie-sso" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.imooc.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="foodie-dev-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.imooc.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Application (1)" />
+        <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="Spring Boot.Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e1e25ac2-d465-42bd-ad88-4ac222b44a55" name="Default Changelist" comment="" />
+      <created>1620807740574</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620807740574</updated>
+      <workItem from="1620807744324" duration="3786000" />
+      <workItem from="1620869545562" duration="10973000" />
+      <workItem from="1620954220785" duration="4834000" />
+      <workItem from="1621214636723" duration="637000" />
+      <workItem from="1621300952428" duration="8749000" />
+      <workItem from="1621396347462" duration="5460000" />
+      <workItem from="1621475135222" duration="3201000" />
+      <workItem from="1621491785433" duration="3255000" />
+      <workItem from="1621587574501" duration="1241000" />
+      <workItem from="1621823765739" duration="1975000" />
+      <workItem from="1621914321128" duration="16230000" />
+      <workItem from="1622539671262" duration="662000" />
+      <workItem from="1623116828788" duration="2818000" />
+      <workItem from="1623122357338" duration="7931000" />
+      <workItem from="1624527511284" duration="652000" />
+      <workItem from="1625125304642" duration="634000" />
+      <workItem from="1626861562699" duration="1442000" />
+      <workItem from="1627973266569" duration="602000" />
+    </task>
+    <task id="LOCAL-00001" summary="2021-05-12">
+      <created>1620809922431</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1620809922431</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2021-05-12">
+      <created>1620810886900</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1620810886900</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2021-05-13">
+      <created>1620898344235</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1620898344235</updated>
+    </task>
+    <task id="LOCAL-00004" summary="2021-05-14">
+      <created>1620961967055</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1620961967056</updated>
+    </task>
+    <task id="LOCAL-00005" summary="2021-05-18">
+      <created>1621334207159</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1621334207159</updated>
+    </task>
+    <task id="LOCAL-00006" summary="2021-05-19">
+      <created>1621409318120</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1621409318120</updated>
+    </task>
+    <task id="LOCAL-00007" summary="2021-05-19">
+      <created>1621420335579</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1621420335579</updated>
+    </task>
+    <task id="LOCAL-00008" summary="2021-05-20: 轮播图">
+      <created>1621476848128</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1621476848128</updated>
+    </task>
+    <task id="LOCAL-00009" summary="2021-05-20: 商品分类">
+      <created>1621496165735</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1621496165735</updated>
+    </task>
+    <task id="LOCAL-00010" summary="2021-05-21: 商品搜索">
+      <created>1621993546467</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1621993546467</updated>
+    </task>
+    <task id="LOCAL-00011" summary="单机完结">
+      <created>1622089096084</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1622089096084</updated>
+    </task>
+    <task id="LOCAL-00012" summary="单机完结">
+      <created>1622094608454</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1622094608454</updated>
+    </task>
+    <task id="LOCAL-00013" summary="2.0.0">
+      <created>1623145252708</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1623145252708</updated>
+    </task>
+    <task id="LOCAL-00014" summary="2.0.0">
+      <created>1627973718748</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1627973718748</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/dev-3.0.0" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2021-05-12" />
+    <MESSAGE value="2021-05-13" />
+    <MESSAGE value="2021-05-14" />
+    <MESSAGE value="2021-05-18" />
+    <MESSAGE value="2021-05-19" />
+    <MESSAGE value="2021-05-20: 轮播图" />
+    <MESSAGE value="2021-05-20: 商品分类" />
+    <MESSAGE value="2021-05-21: 商品搜索" />
+    <MESSAGE value="单机完结" />
+    <MESSAGE value="2.0.0" />
+    <MESSAGE value="3.0.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="3.0.0" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="309" y="42" key="#Inspections" timestamp="1621476083660">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="309" y="42" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1621476083660" />
+    <state x="163" y="0" key="#Project_Structure" timestamp="1627973300952">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1627973300952" />
+    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621311597194">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1621311597194" />
+    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser" timestamp="1621310531032">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1621310531032" />
+    <state x="278" y="58" width="881" height="653" key="CommitChangelistDialog2" timestamp="1627973917387">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="278" y="58" width="881" height="653" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1627973917387" />
+    <state x="99" y="54" width="1092" height="611" key="DiffContextDialog" timestamp="1623210545579">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="99" y="54" width="1092" height="611" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1623210545579" />
+    <state x="214" y="92" key="FileChooserDialogImpl" timestamp="1625125342850">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="214" y="92" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1625125342850" />
+    <state width="1323" height="215" key="GridCell.Tab.0.bottom" timestamp="1623214342712">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="215" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1623214342712" />
+    <state width="1323" height="215" key="GridCell.Tab.0.center" timestamp="1623214342711">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="215" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1623214342711" />
+    <state width="1323" height="215" key="GridCell.Tab.0.left" timestamp="1623214342711">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="215" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1623214342711" />
+    <state width="1323" height="215" key="GridCell.Tab.0.right" timestamp="1623214342712">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="215" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1623214342712" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1623214342705">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1623214342705" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1623214342705">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1623214342705" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1623214342705">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1623214342705" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1623214342705">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1623214342705" />
+    <state width="1323" height="223" key="GridCell.Tab.2.bottom" timestamp="1623214342706">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1623214342706" />
+    <state width="1323" height="223" key="GridCell.Tab.2.center" timestamp="1623214342705">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1623214342705" />
+    <state width="1323" height="223" key="GridCell.Tab.2.left" timestamp="1623214342705">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1623214342705" />
+    <state width="1323" height="223" key="GridCell.Tab.2.right" timestamp="1623214342706">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1623214342706" />
+    <state x="220" y="55" key="MergeDialog" timestamp="1627973843561">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="220" y="55" key="MergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1627973843561" />
+    <state x="561" y="227" width="425" height="274" key="MultipleFileMergeDialog" timestamp="1627973843573">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="561" y="227" width="425" height="274" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1627973843573" />
+    <state x="254" y="178" width="858" height="493" key="Registry" timestamp="1621476256633">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="254" y="178" width="858" height="493" key="Registry/0.0.1366.728@0.0.1366.728" timestamp="1621476256633" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1622088346404">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1622088346404" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1627973773116">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1627973773116" />
+    <state x="477" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1621993523337">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="477" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1621993523337" />
+    <state x="227" y="92" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1623213908121">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="227" y="92" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1623213908121" />
+    <state x="384" y="98" width="598" height="532" key="find.popup" timestamp="1623211169882">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="384" y="98" width="598" height="532" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1623211169882" />
+    <state x="383" y="150" key="git4idea.merge.GitPullDialog" timestamp="1627973851474">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="383" y="150" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1627973851474" />
+    <state x="57" y="24" key="new project wizard" timestamp="1620815950419">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="57" y="24" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1620815950419" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1621310520370">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1621310520370" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/foodie-sso/src/main/java/com/imooc/controller/SSOController.java</url>
+          <line>165</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/foodie-sso/src/main/java/com/imooc/controller/SSOController.java</url>
+          <line>166</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/foodie-sso/src/main/java/com/imooc/controller/SSOController.java</url>
+          <line>167</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
