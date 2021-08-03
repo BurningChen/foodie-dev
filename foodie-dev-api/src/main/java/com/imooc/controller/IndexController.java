@@ -47,7 +47,6 @@ public class IndexController {
         List<Carousel> list = new ArrayList<>();
         String carouselStr = redisOperator.get("carousel");
         if (StringUtils.isBlank(carouselStr)) {
-        	
             list = carouselService.queryAll(YesOrNo.YES.type);
             redisOperator.set("carousel", JsonUtils.objectToJson(list));
         } else {
@@ -81,6 +80,7 @@ public class IndexController {
             list = JsonUtils.jsonToList(catsStr, Category.class);
         }
 
+//        List<Category> list = categoryService.queryAllRootLevelCat();
         return IMOOCJSONResult.ok(list);
     }
 
